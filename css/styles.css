@@ -1,9 +1,11 @@
 
 .row {
     width: 100%;
-    margin-bottom: 15px; /* Added "px" to specify the unit for margin-bottom */
-    Overflow: hidden; /* Clearfix to prevent container collapse due to floated children */
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 0 15px; /* Add padding to provide consistent spacing at the edges */
 }
+
 
 .row > div {
     border: 2px solid black;
@@ -45,12 +47,17 @@ body {
     border: 2px solid black;
 }
 
-#box1 {font-family: sans-serif;
-      background-color: pink;
-      font-size: 1.5em;
-      text-align: center;
-      width: :25%;
-      border: 2px solid black;}
+#box1 {
+    font-family: sans-serif;
+    background-color: pink;
+    font-size: 1.5em;
+    text-align: center;
+    border: 2px solid black;
+    width: 35%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
 
 
 #box2 {font-family: sans-serif;
@@ -58,7 +65,11 @@ body {
       font-size: 1.5em;
       text-align: center;
       width: :25%;
-      border: 2px solid black;}
+      border: 2px solid black;
+      width: 35%;
+      margin-left: auto;
+      margin-right: 0;
+  }
 
 
 #box3 {font-family: sans-serif;
@@ -66,7 +77,11 @@ body {
       font-size: 1.5em;
       text-align: center;
       width: :25%;
-      border: 2px solid black;}
+      border: 2px solid black;
+      width: 35%;
+      margin-left: auto;
+      margin-right: 0;
+  }
 
 @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
